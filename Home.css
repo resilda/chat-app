@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'EB Garamond', serif;
+}
+
+.home-container {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+	border-color: 1px solid black;
+	margin: 50px auto;
+	width: 1250px;
+	height: 1200px;
+	background: rgba(255, 255, 255, 0.1);
+	background: radial-gradient(
+		ellipse at left bottom,
+		rgba(22, 24, 47, 1) 0%,
+		rgba(38, 20, 72, 0.9) 59%,
+		rgba(17, 27, 75, 0.9) 100%
+	  );
+	  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 1);
+	}
+
+@keyframes logo {
+    from {color: rgb(252, 207, 84)}
+    to {color: rgb(230, 47, 47, 0.986);}
+}
+
+.logo {
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	padding: 40px;
+	padding-left: 60px;
+	color: rgb(238, 182, 130);
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.welcome {
+	font-size: 29px;
+	color: white;
+	display: flex;
+	text-align: center;
+	margin-bottom: 80px;
+	margin-left: 490px;
+	margin-right: 150px;
+}
+
+.about-us {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	/* margin-left: 250px;
+	margin-right: 150px;
+	margin-bottom: 100px; */
+}
+
+.btn-reg-login {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	size: 30px;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	width: 60%;
+	margin-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	background: #603bbb;
+	cursor: pointer;
+  }
+  
+  #btn-font {
+	  color: white;
+	  display: block;    
+  }
+
+  #btn-font:hover {
+	text-decoration: none;
+	text-emphasis: none;
+	background: #7a64dd;
+  }
+
+  #footer {
+	display: flex;
+	align-items:flex-end;
+	flex-direction: column;
+  }
+
+  #contact {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 100px
+  }
+
+  #footer-btn {
+	border: none;
+	outline: none;
+	display: block;
+	width: 10%;
+	margin-bottom: 20px;
+	margin-right: 75px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	background: #603bbb;
+	cursor: pointer;
+  }

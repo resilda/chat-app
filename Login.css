@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'EB Garamond', serif;
+}
+
+.auth-container {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-evenly;
+	border-color: 1px solid black;
+	width: 1250px;
+	height: 900px;
+	margin: 30px auto;
+	background: rgba(255, 255, 255, 0.1);
+	background: radial-gradient(
+		ellipse at left bottom,
+		rgba(22, 24, 47, 1) 0%,
+		rgba(38, 20, 72, 0.9) 59%,
+		rgba(17, 27, 75, 0.9) 100%
+	  );
+	  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 1);
+}
+
+@keyframes logo {
+    from {color: rgb(252, 207, 84)}
+    to {color: rgb(230, 47, 47, 0.986);}
+}
+
+.logo {
+	text-align: left;
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-left: 60px;
+	color: rgb(238, 182, 130);
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.p {
+	color: white;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid rgb(27, 4, 4);
+	width: 700px;
+	height: 40px;
+	margin: 20px 80px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	outline: none;
+}
+
+input:focus{
+	border-bottom: 1px solid #000;
+}
+
+.error-message {
+	color: red;
+	font-size: 20px;
+}
+
+.nav-chat-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+button {
+	border: none;
+	outline: none;
+	display: block; 
+	color: white;
+	width: 350px;
+	height: 40px;
+	margin: 15px 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	background: #603bbb;
+	cursor: pointer;
+}
+
+button:hover{
+	background: #7a64dd;
+}
+
+.acc {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+.reg-btn {
+	border: none;
+	outline: none;
+	display: block; 
+	color: white;
+	width: 150px;
+	height: 40px;
+	margin: 15px 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	background: #603bbb;
+	cursor: pointer;
+}
+
+#btn-font {
+	color: white;
+	display: block;    
+}
+
+#btn-font:hover {
+	text-decoration: none;
+	text-emphasis: none;
+	color: white;
+	background: #7a64dd;
+}
+
+#contact {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 100px
+  }
+
+  #footer-btn {
+	border: none;
+	outline: none;
+	display: block;
+	width: 10%;
+	margin-bottom: 20px;
+	margin-right: 75px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	background: #603bbb;
+	cursor: pointer;
+  }
