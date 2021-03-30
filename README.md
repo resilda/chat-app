@@ -1,2 +1,2 @@
 # chat-app
-The newest chat-room in Web.
+Join the chat-room: https://jalptech.web.app/ 
