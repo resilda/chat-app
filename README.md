@@ -7,4 +7,4 @@ This application, was mainly build to adapt the security measurements within a w
 
 Check the comments within the file projects for a better understaning of how the chat-app is build. 
 
---> And also, join us for a interesting topic discussion :) <--
+--> And also, join us for an interesting topic discussion :) <--
